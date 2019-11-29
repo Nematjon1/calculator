@@ -1,0 +1,120 @@
+/* Start General Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(200, 50%, 95%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End General Styles */
+/* Start App Styles */
+.app {
+  max-width: 450px;
+  width: 100%;
+  margin: 4rem auto;
+  padding: 0.8rem 1.2rem;
+  background-color: hsl(150, 70%, 90%);
+  border: 2px solid hsl(150, 60%, 70%);
+  border-radius: 9px;
+  box-shadow: 2px 10px 20px rgba(0,0,0, 0.8);
+}
+
+.app__header {
+  text-align: center;
+  color: hsl(10, 40%, 40%);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  padding: 1rem 0 1.5rem;;
+  margin: 5px;
+  text-shadow: 0px 3px 10px rgba(0,0,0, 0.3);
+}
+/* End App Styles */
+
+/* Start Display Styles */
+
+.display {
+  border: 2px solid hsl(40, 50%, 75%);
+  margin: 0 auto;
+  padding: 0.2rem 4px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  text-align: right;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-style: oblique;
+  font-weight: 200;
+}
+
+.display__notEmpty {
+  background-color: hsl(30, 40%, 90%);
+  color: hsl(30, 40%, 50%);
+}
+.display__empty {
+  background-color: hsl(30, 20%, 90%);
+  color: hsl(30, 10%, 60%);
+}
+/*.display:focus {
+  box-shadow: 2px 10px 20px rgba(0,0,0, 0.8);
+}
+*/
+/* End Display Styles */
+
+/* Buttons Start */
+.buttons {
+  display: flex;
+}
+/* Buttons End */
+/* Numbers Start Styles */
+.numbers {
+  border: 1px solid hsl(30, 60%, 80%);
+  background-color: hsl(130, 50%, 80%);
+  flex: 2.5 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  align-content: center;
+  justify-content: center;
+}
+.operation.WA__button--non-active {
+  background-color: hsl(0, 50%, 50%);
+  color: hsl(0, 60%, 90%);
+}
+.operation.WA__button--active {
+  background-color: hsl(120, 60%, 50%);
+  color: hsl(110, 30%, 40%);
+}
+
+.number {
+  background-color: hsl(10, 60%, 90%);
+  padding: 0.3rem 0.5rem;
+  outline: none;
+  flex: 0 0 24%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.2rem 0.4rem;
+  color: hsl(200, 50%, 50%);
+  border-radius: 5px;
+}
+/* Numbers End Styles */
+
+/* Operations Start */
+.operations {
+  border: 1px solid hsl(150, 50%, 80%);
+  background-color: hsl(150, 50%, 80%);
+  flex: 1.2 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operation {
+  background-color: hsl(60, 60%, 80%);
+  color: hsl(60, 30%, 30%);
+  border: 2px solid hsl(50, 60%, 70%);
+  flex: 40%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+/* Opeartions End */
